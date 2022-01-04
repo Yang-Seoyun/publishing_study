@@ -1,0 +1,118 @@
+body a {
+    text-decoration: none;
+}
+
+
+a {
+    font-size: 20px;
+    font: bold;
+    color: rgb(31, 31, 31);
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+li { 
+    list-style: none;
+    flex-basis: 33.33%
+} 
+
+.card {
+    height: 100%
+    width: 100%;
+    margin-top: 66px;
+    padding: 30px, 0px, 0px, 30px;
+}
+
+.cat_cushion {
+    width: 300px;
+    height: 178px;
+    border-radius: 3px; 
+    background-size: cover;
+    background-repeat: none;
+    background-image: url(https://cdn.wadiz.kr/wwwwadiz/green001/2021/1223/20211223001132109_136236.jpg);
+    background-position: center center;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: 700;
+    font-style: #00000;
+}
+
+#progressbar {
+    -webkit-appearance: none;
+    background-color: ;
+    border: 0;
+    height: 4px;
+    border-radius: 0px;
+    width: 300px;
+}
+
+.status {
+    display: flex;
+}
+
+.item {
+    display: inline-block;
+    height: 0px;
+    vertical-align: center;
+    color: #90949c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.company {
+    display: inline-block;
+    height: 0px;
+    text-align: center;
+    color: #90949c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.company::before {
+    display: inline-block;
+    text-align: bottom;
+    height: 0px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: lightgray;
+    content: "|";
+}
+
+.company::after {
+    content: " ";
+    padding-left: 10px;
+
+}
+
+.percent {
+    display: inline-block;
+    color: #00b2b2;
+    font-weight: 700;
+}
+
+.price {
+    display: inline-block;
+    height: 20px;
+    vertical-align: center;
+    color: #90949c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.period {
+    display: inline-block;
+    height: 16px;
+    vertical-align: center;
+    color: #90949c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
